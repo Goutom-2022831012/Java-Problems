@@ -26,23 +26,23 @@ public static void filterProducts(double minPrice, double maxPrice) {
             }
         }
     }
-public static void filterProductsByBrand(String brand) {
+public static void filterProducts(String name,String brand) {
         for (Product p : products) {
             if (p != null && p.brandName.equalsIgnoreCase(brand)) {
- System.out.println(p.productName+" "+p.brandName);            }
+                System.out.println(p.productName+" "+p.brandName);            }
         }
     }
 public static void filterProducts(String category, double minPrice, double maxPrice) {
         for (Product p : products) {
             if (p != null && p.category.equalsIgnoreCase(category) && p.price >= minPrice && p.price <= maxPrice) {
- System.out.println(p.productName+" "+p.brandName);            }
+                    System.out.println(p.productName+" "+p.brandName);            }
         }
     }
 public static void filterProducts(String category, double minPrice, double maxPrice, String brand) {
         for (Product p : products) {
             if (p != null && p.category.equalsIgnoreCase(category) && p.price >= minPrice && p.price <= maxPrice &&
                 p.brandName.equalsIgnoreCase(brand)) {
- System.out.println(p.productName+" "+p.brandName);            }
+                     System.out.println(p.productName+" "+p.brandName);            }
         }
     }
  public static void main(String[] args) {
@@ -67,5 +67,9 @@ public static void filterProducts(String category, double minPrice, double maxPr
         products[18] = new Product("Microsoft Surface", "Software", 12, "Microsoft");
         products[19] = new Product("Pycharm", "Software", 15, "JtBrain");
         filterProducts(100.0,600.8);
+        filterProducts("Data","Microsoft");
+        filterProducts("Vehicle");
+        filterProducts("Fashion",10.0,300.0);
+
     }
 }

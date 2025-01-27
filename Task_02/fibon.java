@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class fibon {
+public class Fibon {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int first = 0, second = 1;

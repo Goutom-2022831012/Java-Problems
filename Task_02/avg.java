@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class avg {
+public class Avg {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();

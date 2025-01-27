@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class bonus {
+public class Bonus {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("The percentage of target sales achieved = ");

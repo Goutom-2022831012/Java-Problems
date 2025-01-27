@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class calculateGrade{
+public class CalculateGrade{
     public static void main(String[] args){
         Scanner inn= new Scanner(System.in);
         int mark= inn.nextInt();

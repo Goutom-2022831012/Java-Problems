@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class positive{
+public class Positive{
     public static void main(String[] args){
         Scanner data=new Scanner(System.in);
         int a = data.nextInt();

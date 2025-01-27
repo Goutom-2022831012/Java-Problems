@@ -1,4 +1,4 @@
-public class productSearch {
+public class ProductSearch {
     public static class Product {
         String productName;
         String category;

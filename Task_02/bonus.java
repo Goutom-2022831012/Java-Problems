@@ -13,7 +13,7 @@ public class Bonus {
             bonus = 40;
         } else if (p >= 80 && a== 100) {
             bonus = 40;
-        } else if (8 >= 80 && a >= 90) {
+        } else if (p >= 80 && a >= 90) {
             bonus = 20;
         } else {
             bonus = 5;
